@@ -24,7 +24,7 @@ jobs:
           persist-credentials: false
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 22.23.4
       - name: Install Pi
         run: npm install -g --ignore-scripts @earendil-works/pi-coding-agent
       - name: Verify the Pi package, commands, status, and persisted mode
